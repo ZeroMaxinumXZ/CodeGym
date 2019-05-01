@@ -31,5 +31,5 @@ Add other rewards.
 Add in examples
 
 # Contributions
-Any and all contributions are welcome. This project is open-sourced under thehttps://github.com/ZeroMaxinumXZ/CodeGym/edit/master/README.md MIT License.
+Any and all contributions are welcome. This project is open-sourced under the MIT License.
 
