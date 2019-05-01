@@ -21,11 +21,11 @@ env = gym.make('CodeEnv-v0')
 #Due to current limitations, env.reset() returns rewards as well as an observation.
 
 rew, obs = env.reset()
-env.step()
+obs, _, done = env.step(action=5)
 
 ```
 # TODO:
-Make more stable.https://github.com/ZeroMaxinumXZ/CodeGym/edit/master/README.md
+Make more stable.
 Add other programming languages.
 Add other rewards.
 Add in examples
