@@ -41,7 +41,7 @@ class CodeEnv(Env):
         except subprocess.CalledProcessError as e:
             returned = str(e)            
         print("Complete")
-        if "error" not in returned: #RELIEF...
+        if "error" not in returned:
             reward = 1
         else:
             reward = 0
