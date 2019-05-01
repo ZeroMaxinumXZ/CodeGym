@@ -16,7 +16,7 @@ pip install -e .
 import CodeGym
 import gym
 
-env = gym.make('CodeEnv-v0')
+env = gym.make('code-v0')
 
 #Due to current limitations, env.reset() returns rewards as well as an observation.
 
